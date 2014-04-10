@@ -48,5 +48,6 @@ def crack():
                 line = username + "&" + map_list[password] + "\n"
                 print "Found %s" % line
                 file_obj.write(line)
+    file_obj.close()
 
 crack()
